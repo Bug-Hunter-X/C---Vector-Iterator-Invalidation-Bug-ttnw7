@@ -1,0 +1,3 @@
+# C++ Vector Iterator Invalidation Bug
+
+This repository demonstrates a common error in C++ when removing elements from a `std::vector` using an index-based loop.  Modifying the vector while iterating over it with indices can lead to iterator invalidation, resulting in unexpected behavior or program crashes. The `bug.cpp` file shows the problematic code. The solution is provided in `bugSolution.cpp` which demonstrates the correct usage of iterators for removing elements.
